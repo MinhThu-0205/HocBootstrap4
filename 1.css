@@ -1,0 +1,232 @@
+*{margin: 0; padding: 0;}
+
+.td small.text-muted {
+    font-size: 18px;
+    padding-top: 8px;
+    display: block;
+    font-weight: 300;
+} 
+.top{
+	background: url(./images/bg.jpg);
+	height: 700px;
+}
+.navbar.menutop{
+	background: transparent !important;
+}
+.logo{
+	font-family: 'Roboto Slab', serif;
+	background: #ec6952;
+	padding: 14px 27px;
+	font-size: 21px;
+	font-weight: 700;
+	position: relative;
+	top: -8px;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 5px;
+}
+
+.top .menuright li a{
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 15px;
+	font-size: 12px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.top .menuright li a.nav-link {
+    color: white;
+    transition: 0.4s;
+}
+
+.top .menuright li.active a.nav-link {
+    color: #ec6952;
+}
+
+.top .menuright li a.nav-link:hover {
+    color: #ec6952;
+}
+
+.top .menuright li a.nav-link.nutsignup {
+	border-color: white;
+	transition: 0.4s;
+}
+.top .menuright li a.nav-link.nutsignup:hover {
+	border-color: #ec6952;
+	background: #ec6952;
+	color: white;
+}
+
+/* css cho banner */
+.banner h1{
+    color: white;
+    padding-top: 200px;
+    font-size: 43px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+.banner a.nutaction{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: white;
+    background: #ec6952;
+}
+.banner a.nutyoutube{text-decoration: none;display: block;padding-top: 30px;}
+
+.banner a.nutyoutube:hover {
+    color: white !important;
+}
+.banner a.text-muted.nutyoutube:hover{
+	color: white;
+}
+
+
+.carousel-indicators li{
+	background: gray;
+	width:20px;
+	height:6px;
+	bottom:-40px;
+}
+.carousel-indicators li.active{
+	background: #ec6952;
+	width:20px;
+	height:6px;
+}
+.carousel-indicators{
+	bottom: -30px;
+}
+.slide{
+	background: #f5f5f5;
+}
+
+
+/* css cho noidung3 */
+.noidung3{
+	background: url(./images/bgfooter.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.noidung3 .nutget{
+	font-size: 22px;
+	padding: 10px 15px;
+	font-weight: 700;
+	background: #ec6952;
+}
+
+
+/* css cho noidung4 */
+.noidung4 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #253340;
+	color: white;
+}
+.noidung4 .about{
+	list-style: none;
+}
+.noidung4 .about li a{
+	color: lightblue;
+	font-size: 14px;
+}
+.about .icon{
+	padding-right: 5px;
+}
+.noidung4 .about li{
+	padding: 7px 0px;
+}
+
+
+.media i{
+	padding: 0px 20px;
+
+}
+.noidung4 .media [class*="col"]{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.noidung4 .nut230{
+	width: 230px;
+	text-align: left;
+}
+ /* css cho footer */
+ .footer{
+ 	background: #1C2630;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	font-size: 13px;
+ }
+.top .menuright li a.nav-link.chuden{
+	color: black;
+}
+.navbar.nentrang{
+	background: white;
+}
+/* css cho hieu ung cuon chuot */
+.logo.chucam{
+	background: white !important;
+	color: #ec6952;
+}
+.navbar.nentrang{
+	background: white !important;
+	
+}
+a.nav-link.chuden{
+	color: gray;
+}
+.top .menuright li a.nav-link.nutsignup.chuden{
+	background: #ec6952;
+	color: white;
+}
+
+
+@media (max-width: 576px){
+*{}
+.logo{
+	width:150px;		
+	position: relative;	
+	top: -16px;
+	margin-left:140px;		
+	padding: 5px 5px;		
+	text-align: center;
+}
+.menuright {
+    background: #253340;
+    padding:15px;
+}
+.menuright li a.nav-link{
+	padding:8px;
+}
+.banner h1{
+	font-size:35px;
+    padding-top:100px
+}
+.top{
+	height:570px;
+}
+}
+/* css cho noidung1 */
+.noidung1 .td{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.nutcomback{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: -25px;
+	margin-left: -25px;
+	opacity: 0;
+	transition: 0.4s;
+}
+.nutcomback.hienra{
+	opacity: 1;
+}
